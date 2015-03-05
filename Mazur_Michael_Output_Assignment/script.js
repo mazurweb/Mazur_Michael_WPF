@@ -27,3 +27,7 @@ console.log("I was born in " + birthPlace);
 /* Print favoriteHobbies to console*/
 console.log("I love to play " + favoriteHobbies[0] + ", I love " + favoriteHobbies[1] + ", and I love " + favoriteHobbies[2]);
 
+/*Print favoriteNumber*/
+console.log("And just a random fact my favorite number is " + favoriteNumber);
+/* Print currentlyEmployed*/
+console.log("Am I employed?  The answer is yes it is " + currentlyEmployed + ".  I currently work as a Front-End Developer in Clearwater, FL");

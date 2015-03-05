@@ -18,7 +18,12 @@ var favoriteNumber = 7;
 /*Variable for my current job status*/
 var currentlyEmployed = true;
 
+/*Print a nice messge to console with my name!*/
+console.log("Hi my name is Mike Mazur!");
+
 /* Printing out my birthPlace variable*/
 console.log("I was born in " + birthPlace);
 
-console.log("I love to play " + favoriteHobbies[0] + ", I love to " + favoriteHobbies[1] + ", and I love " + favoriteHobbies[2]);
+/* Print favoriteHobbies to console*/
+console.log("I love to play " + favoriteHobbies[0] + ", I love " + favoriteHobbies[1] + ", and I love " + favoriteHobbies[2]);
+

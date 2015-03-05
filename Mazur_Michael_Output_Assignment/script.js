@@ -17,3 +17,6 @@ var favoriteNumber = 7;
 
 /*Variable for my current job status*/
 var currentlyEmployed = true;
+
+/* Printing out my birthPlace variable*/
+console.log("I was born in " + birthPlace);

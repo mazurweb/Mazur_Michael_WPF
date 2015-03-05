@@ -15,3 +15,5 @@ var favoriteHobbies = ["Hockey", "Skateboarding", "Developing Website"];
 /*Variable for my Favorite Number its my birthday as well :O */
 var favoriteNumber = 7;
 
+/*Variable for my current job status*/
+var currentlyEmployed = true;

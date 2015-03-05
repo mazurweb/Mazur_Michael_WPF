@@ -29,5 +29,10 @@ console.log("I love to play " + favoriteHobbies[0] + ", I love " + favoriteHobbi
 
 /*Print favoriteNumber*/
 console.log("And just a random fact my favorite number is " + favoriteNumber);
+
 /* Print currentlyEmployed*/
 console.log("Am I employed?  The answer is yes it is " + currentlyEmployed + ".  I currently work as a Front-End Developer in Clearwater, FL");
+
+
+/* Final Statement*/
+console.log("Thats enough about me, I'm ready to get down and nitty gritty and improve my programming abilities in the rest of this class!");

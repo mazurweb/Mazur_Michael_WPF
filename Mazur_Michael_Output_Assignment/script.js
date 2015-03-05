@@ -6,7 +6,12 @@
 // 201503 Scalable Data Infrastructures
 // Creating Variables and Output Assignment
 
-var birthPlace = "England"; /*Variable for my Birth Place.  Yes I was born in England awesome right?*/
+/*Variable for my Birth Place.  Yes I was born in England awesome right?*/
+var birthPlace = "England";
 
 /*Array for my Favorite Hobbies I know we didn't go over but w/e ;)*/
 var favoriteHobbies = ["Hockey", "Skateboarding", "Developing Website"];
+
+/*Variable for my Favorite Number its my birthday as well :O */
+var favoriteNumber = 7;
+

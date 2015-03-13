@@ -40,3 +40,9 @@ var totalSides3 = perimeter - side2;
 
 //Print the final result of the perimeter!
 console.log("The Perimeter of your Triangle is " + perimeter + " Inches!");
+
+console.log("The Total of Sides 1 and 2 is " + totalSides1 + " Inches!");
+
+console.log("The Total of Sides 2 and 3 is " + totalSides2 + " Inches!");
+
+console.log("The Total of Sides 1 and 3 is " + totalSides3 + " Inches!");

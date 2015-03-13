@@ -17,6 +17,8 @@ alert("Hello!  Welcome to the Triangle Perimeter Calculator App!");
 
 //Prompt User for the First Side of a Triangle
 
-var side1 = prompt("What is length of the first side?(In Inches)");
+var side1 = prompt("What is the length of the first side?(In Inches)");
 
 //Prompt User for the Second Side of the Triangle
+
+var side2 = prompt("What is the length of the second side?(In Inches)");

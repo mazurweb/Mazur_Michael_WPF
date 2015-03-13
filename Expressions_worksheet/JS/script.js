@@ -64,3 +64,4 @@ var averageBill = totalBill / 5;
 //Print total and weekly average
 console.log("You have spent a total of $" + totalBill + " on groceries over 5 weeks. That is an average of $" + averageBill + " per week.");
 
+

@@ -26,3 +26,7 @@ var side2 = prompt("What is the length of the second side?(In Inches)");
 //Prompt user for the Third Side of the Triangle
 
 var side3 = prompt("What is the length of the third side?(Inches)");
+
+//Variable for calculations of the perimeter of the triangle
+
+var perimeter = Number(side1) + Number(side2) + Number(side3);

@@ -30,3 +30,7 @@ var side3 = prompt("What is the length of the third side?(Inches)");
 //Variable for calculations of the perimeter of the triangle
 
 var perimeter = Number(side1) + Number(side2) + Number(side3);
+
+
+//Print the final result of the perimeter!
+console.log("The Perimeter of your Triangle is " + perimeter + " Inches!");

@@ -20,6 +20,11 @@ var cleanliness = prompt("Grade the establishments cleanliness from 0-100 (0 bei
 cleanliness = Number(cleanliness);
 
 //Create Prompt for 2nd Area which is hygiene user enters grade from 0-100
-var hygiene = prompt("Grade the establishments personal hygiene of employees from 0-100");
+var hygiene = prompt("Grade the establishments personal hygiene of employees from 0-100 (0 being the worst)");
 //Convert hygiene from string to number and resave it to hygiene
 hygiene = Number(hygiene);
+
+//Create Prompt for 3rd Area which is Pests user enters grade from 0-100
+var pests = prompt("Grade the establishments pest control from 0-100 (0 being the worst)");
+//Convert pests from a string to a number and resave it
+pests = Number(pests);

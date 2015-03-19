@@ -33,3 +33,8 @@ pests = Number(pests);
 var maintenance = prompt("Grade the establishments up-to-date maintenance of equipment with a grade from 0-100");
 //Convert maintenance from a string to a number and resave it
 maintenance = Number(maintenance);
+
+//Create variable that holds the Grade average of all 4 grades
+var gradeAverage = (cleanliness + hygiene + pests + maintenance) / 4;
+
+//Else if statement to determine whether or not the establishment passes the inspection or not.

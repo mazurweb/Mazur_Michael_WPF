@@ -38,3 +38,25 @@ maintenance = Number(maintenance);
 var gradeAverage = (cleanliness + hygiene + pests + maintenance) / 4;
 
 //Else if statement to determine whether or not the establishment passes the inspection or not.
+
+/*For all grades under 70 and greater than or equal to 0 the establishment will fail the inspection.
+Anything greater than or equal to 70 and less than 101 is a passing grade and the establishment will pass the inspection.
+ */
+
+if(gradeAverage < 101 && gradeAverage >=70) {
+    var grade = true,
+        outcome = grade ? "You Passed the Inspection!" : "You Failed the Inspection.";
+    console.log(businessName + "'s final grade came out to " + gradeAverage + ". " + outcome);
+}
+else if(gradeAverage < 70 && gradeAverage >= 0){
+    var grade = false,
+        outcome = grade ? "You Passed the Inspection!" : "You Failed the Inspection.";
+    console.log(businessName + "'s final grade came out to " + gradeAverage + ". " + outcome);
+}
+else{
+    console.log("Somewhere in the grading process a wrong grade number has been inputted and couldn't get an accurate grade for the establishment");
+}
+
+//Used random names for the name.  I tried 100, 75, 50, 25 and got businessName's final grade came out to 62.5.  You Failed the Inspection.
+//Also tried 100, 100, 100, 100 and got businessName's final grade came out to 100.  You Passed the Inspection!
+//Also tried -100, -100, 0, 50 and got Somewhere in the grading process a wrong grade number has been inputted and couldn't get an accurate grade for the establishment.

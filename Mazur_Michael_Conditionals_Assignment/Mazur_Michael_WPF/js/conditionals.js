@@ -14,8 +14,12 @@ Conditionals Assignment
 //Prompt User for name of food establishment
 var businessName = prompt("What is the name of the establishment you are grading today?");
 
-//Create Prompt for 1st Area which is Cleanliness user enters grade from 0-100
-var clean = prompt("Grade the establishments cleanliness from 0-100!");
+//Create Prompt for 1st Area which is cleanliness user enters grade from 0-100
+var cleanliness = prompt("Grade the establishments cleanliness from 0-100 (0 being the worst)");
 //Convert cleanliness from string to number and resave it to cleanliness
-clean = Number(clean);
+cleanliness = Number(cleanliness);
 
+//Create Prompt for 2nd Area which is hygiene user enters grade from 0-100
+var hygiene = prompt("Grade the establishments personal hygiene of employees from 0-100");
+//Convert hygiene from string to number and resave it to hygiene
+hygiene = Number(hygiene);

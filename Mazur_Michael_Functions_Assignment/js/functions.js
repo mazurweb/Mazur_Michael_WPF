@@ -17,8 +17,7 @@ function flLottery(min, max, num){
         //Calculate and store random lottery number
         var randomLotteryNumber = Math.round(Math.random() * (max - min) + min);
         //Stores the random lottery numbers into the array of flLotteryNumbers
-        flLotteryNumbers[i] = randomLotteryNumber;
-
+            flLotteryNumbers[i] = randomLotteryNumber;
     }
     //Returns flLotteryNumbers
     return flLotteryNumbers;
@@ -38,9 +37,16 @@ function powerBall(min, max, num){
     return powerballNumbers;
 }
 //function for last powerball number
-function lastPowerball(min, max, num){
+function lastPowerball(min, max){
     //Store random number for last powerball number
     var lastPowerballNumber = Math.round(Math.random() * (max - min) + min);
 
     return lastPowerballNumber;
 }
+
+var flLotteryNumbs = flLottery(1, 53, 6);
+var powerballNumbs = powerBall(1, 59, 5);
+var lastPbNumb = lastPowerball(1, 35);
+
+console.log("Your Florida Lottery Numbers are: " + flLotteryNumbs);
+console.log("Your Powerball Numbers are: " + powerballNumbs + "; And your last powerball number is " + lastPbNumb);

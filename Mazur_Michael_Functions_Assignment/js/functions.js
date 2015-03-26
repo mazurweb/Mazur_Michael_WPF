@@ -23,3 +23,17 @@ function flLottery(min, max, num){
     //Returns flLotteryNumbers
     return flLotteryNumbers;
 }
+
+//function for powerball
+function powerBall(min, max, num){
+    var powerballNumbers = [];
+
+    for(var i = 0; i < num; i++){
+        //Calculate and store random powerball numbers
+        var randomPowerballNumbers = Math.round(Math.random() * (max - min) + min);
+        //stores the random powerball numbers into the array of powerballNumbers
+        powerballNumbers[i] = randomPowerballNumbers;
+    }
+    //Returns powerballNumbers
+    return powerballNumbers;
+}

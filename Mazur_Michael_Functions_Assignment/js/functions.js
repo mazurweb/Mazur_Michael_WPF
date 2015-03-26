@@ -37,3 +37,10 @@ function powerBall(min, max, num){
     //Returns powerballNumbers
     return powerballNumbers;
 }
+//function for last powerball number
+function lastPowerball(min, max, num){
+    //Store random number for last powerball number
+    var lastPowerballNumber = Math.round(Math.random() * (max - min) + min);
+
+    return lastPowerballNumber;
+}

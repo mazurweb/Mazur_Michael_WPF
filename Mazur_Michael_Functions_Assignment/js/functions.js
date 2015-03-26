@@ -50,3 +50,11 @@ var lastPbNumb = lastPowerball(1, 35);
 
 console.log("Your Florida Lottery Numbers are: " + flLotteryNumbs);
 console.log("Your Powerball Numbers are: " + powerballNumbs + "; And your last powerball number is " + lastPbNumb);
+
+/*
+First run Your Florida Lottery Numbers are: 29,15,20,22,40,33
+Your Powerball Numbers are: 58,25,16,39,22; And your last powerball number is 11 */
+
+/*
+Second Run Your Florida Lottery Numbers are: 18,52,43,24,51,9
+Your Powerball Numbers are: 41,27,5,31,52; And your last powerball number is 32*/
